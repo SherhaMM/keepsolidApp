@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2082387446F69EE8347C71F4 /* libPods-keppSAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF03D335BA2481F8E1623A37 /* libPods-keppSAppTests.a */; };
+		794BE5F92B96F884D1811822 /* libPods-keppSApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 261BE0FBB0D737B6CA989049 /* libPods-keppSApp.a */; };
+		F989DD3322CBFAB700F9977D /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989DD3222CBFAB700F9977D /* CustomCell.swift */; };
+		F9FC17B522CBF69500C3E277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC17B422CBF69500C3E277 /* AppDelegate.swift */; };
+		F9FC17B722CBF69500C3E277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC17B622CBF69500C3E277 /* ViewController.swift */; };
+		F9FC17BA22CBF69500C3E277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FC17B822CBF69500C3E277 /* Main.storyboard */; };
+		F9FC17BC22CBF69500C3E277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9FC17BB22CBF69500C3E277 /* Assets.xcassets */; };
+		F9FC17BF22CBF69500C3E277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FC17BD22CBF69500C3E277 /* LaunchScreen.storyboard */; };
+		F9FC17CA22CBF69500C3E277 /* keppSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC17C922CBF69500C3E277 /* keppSAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9FC17C622CBF69500C3E277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9FC17A922CBF69500C3E277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9FC17B022CBF69500C3E277;
+			remoteInfo = keppSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		261BE0FBB0D737B6CA989049 /* libPods-keppSApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-keppSApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45766235717CE13E8977F9E4 /* Pods-keppSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keppSApp.debug.xcconfig"; path = "Target Support Files/Pods-keppSApp/Pods-keppSApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BF03D335BA2481F8E1623A37 /* libPods-keppSAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-keppSAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DE77D632FEC75AA06B3A16 /* Pods-keppSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keppSApp.release.xcconfig"; path = "Target Support Files/Pods-keppSApp/Pods-keppSApp.release.xcconfig"; sourceTree = "<group>"; };
+		E5C609AFDB8EEA32D07E21AF /* Pods-keppSAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keppSAppTests.debug.xcconfig"; path = "Target Support Files/Pods-keppSAppTests/Pods-keppSAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F989DD3222CBFAB700F9977D /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		F9FC17B122CBF69500C3E277 /* keppSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keppSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FC17B422CBF69500C3E277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9FC17B622CBF69500C3E277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9FC17B922CBF69500C3E277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9FC17BB22CBF69500C3E277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9FC17BE22CBF69500C3E277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9FC17C022CBF69500C3E277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FC17C522CBF69500C3E277 /* keppSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keppSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FC17C922CBF69500C3E277 /* keppSAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keppSAppTests.swift; sourceTree = "<group>"; };
+		F9FC17CB22CBF69500C3E277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FECE9CCBA50D6CDAE29EF8CE /* Pods-keppSAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keppSAppTests.release.xcconfig"; path = "Target Support Files/Pods-keppSAppTests/Pods-keppSAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9FC17AE22CBF69500C3E277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794BE5F92B96F884D1811822 /* libPods-keppSApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FC17C222CBF69500C3E277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2082387446F69EE8347C71F4 /* libPods-keppSAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		933BFCE97B74C228CDFD5790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				261BE0FBB0D737B6CA989049 /* libPods-keppSApp.a */,
+				BF03D335BA2481F8E1623A37 /* libPods-keppSAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8A1D9243884E7DFD5607F64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45766235717CE13E8977F9E4 /* Pods-keppSApp.debug.xcconfig */,
+				D0DE77D632FEC75AA06B3A16 /* Pods-keppSApp.release.xcconfig */,
+				E5C609AFDB8EEA32D07E21AF /* Pods-keppSAppTests.debug.xcconfig */,
+				FECE9CCBA50D6CDAE29EF8CE /* Pods-keppSAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9FC17A822CBF69500C3E277 = {
+			isa = PBXGroup;
+			children = (
+				F9FC17B322CBF69500C3E277 /* keppSApp */,
+				F9FC17C822CBF69500C3E277 /* keppSAppTests */,
+				F9FC17B222CBF69500C3E277 /* Products */,
+				F8A1D9243884E7DFD5607F64 /* Pods */,
+				933BFCE97B74C228CDFD5790 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9FC17B222CBF69500C3E277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9FC17B122CBF69500C3E277 /* keppSApp.app */,
+				F9FC17C522CBF69500C3E277 /* keppSAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9FC17B322CBF69500C3E277 /* keppSApp */ = {
+			isa = PBXGroup;
+			children = (
+				F989DD3222CBFAB700F9977D /* CustomCell.swift */,
+				F9FC17B422CBF69500C3E277 /* AppDelegate.swift */,
+				F9FC17B622CBF69500C3E277 /* ViewController.swift */,
+				F9FC17B822CBF69500C3E277 /* Main.storyboard */,
+				F9FC17BB22CBF69500C3E277 /* Assets.xcassets */,
+				F9FC17BD22CBF69500C3E277 /* LaunchScreen.storyboard */,
+				F9FC17C022CBF69500C3E277 /* Info.plist */,
+			);
+			path = keppSApp;
+			sourceTree = "<group>";
+		};
+		F9FC17C822CBF69500C3E277 /* keppSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9FC17C922CBF69500C3E277 /* keppSAppTests.swift */,
+				F9FC17CB22CBF69500C3E277 /* Info.plist */,
+			);
+			path = keppSAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9FC17B022CBF69500C3E277 /* keppSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FC17CE22CBF69500C3E277 /* Build configuration list for PBXNativeTarget "keppSApp" */;
+			buildPhases = (
+				C2B4AF01DC78BB2613988C3B /* [CP] Check Pods Manifest.lock */,
+				F9FC17AD22CBF69500C3E277 /* Sources */,
+				F9FC17AE22CBF69500C3E277 /* Frameworks */,
+				F9FC17AF22CBF69500C3E277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keppSApp;
+			productName = keppSApp;
+			productReference = F9FC17B122CBF69500C3E277 /* keppSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9FC17C422CBF69500C3E277 /* keppSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FC17D122CBF69500C3E277 /* Build configuration list for PBXNativeTarget "keppSAppTests" */;
+			buildPhases = (
+				CE23F26631AC52BB94D1656B /* [CP] Check Pods Manifest.lock */,
+				F9FC17C122CBF69500C3E277 /* Sources */,
+				F9FC17C222CBF69500C3E277 /* Frameworks */,
+				F9FC17C322CBF69500C3E277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9FC17C722CBF69500C3E277 /* PBXTargetDependency */,
+			);
+			name = keppSAppTests;
+			productName = keppSAppTests;
+			productReference = F9FC17C522CBF69500C3E277 /* keppSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9FC17A922CBF69500C3E277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Makcim Mikhailov";
+				TargetAttributes = {
+					F9FC17B022CBF69500C3E277 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F9FC17C422CBF69500C3E277 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9FC17B022CBF69500C3E277;
+					};
+				};
+			};
+			buildConfigurationList = F9FC17AC22CBF69500C3E277 /* Build configuration list for PBXProject "keppSApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9FC17A822CBF69500C3E277;
+			productRefGroup = F9FC17B222CBF69500C3E277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9FC17B022CBF69500C3E277 /* keppSApp */,
+				F9FC17C422CBF69500C3E277 /* keppSAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9FC17AF22CBF69500C3E277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FC17BF22CBF69500C3E277 /* LaunchScreen.storyboard in Resources */,
+				F9FC17BC22CBF69500C3E277 /* Assets.xcassets in Resources */,
+				F9FC17BA22CBF69500C3E277 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FC17C322CBF69500C3E277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2B4AF01DC78BB2613988C3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-keppSApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE23F26631AC52BB94D1656B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-keppSAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9FC17AD22CBF69500C3E277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FC17B722CBF69500C3E277 /* ViewController.swift in Sources */,
+				F989DD3322CBFAB700F9977D /* CustomCell.swift in Sources */,
+				F9FC17B522CBF69500C3E277 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FC17C122CBF69500C3E277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FC17CA22CBF69500C3E277 /* keppSAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9FC17C722CBF69500C3E277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9FC17B022CBF69500C3E277 /* keppSApp */;
+			targetProxy = F9FC17C622CBF69500C3E277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9FC17B822CBF69500C3E277 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9FC17B922CBF69500C3E277 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9FC17BD22CBF69500C3E277 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9FC17BE22CBF69500C3E277 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9FC17CC22CBF69500C3E277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9FC17CD22CBF69500C3E277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9FC17CF22CBF69500C3E277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45766235717CE13E8977F9E4 /* Pods-keppSApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL97D5DF35;
+				INFOPLIST_FILE = keppSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.keppSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9FC17D022CBF69500C3E277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0DE77D632FEC75AA06B3A16 /* Pods-keppSApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL97D5DF35;
+				INFOPLIST_FILE = keppSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.keppSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9FC17D222CBF69500C3E277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C609AFDB8EEA32D07E21AF /* Pods-keppSAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL97D5DF35;
+				INFOPLIST_FILE = keppSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.keppSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keppSApp.app/keppSApp";
+			};
+			name = Debug;
+		};
+		F9FC17D322CBF69500C3E277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FECE9CCBA50D6CDAE29EF8CE /* Pods-keppSAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL97D5DF35;
+				INFOPLIST_FILE = keppSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.keppSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keppSApp.app/keppSApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9FC17AC22CBF69500C3E277 /* Build configuration list for PBXProject "keppSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FC17CC22CBF69500C3E277 /* Debug */,
+				F9FC17CD22CBF69500C3E277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FC17CE22CBF69500C3E277 /* Build configuration list for PBXNativeTarget "keppSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FC17CF22CBF69500C3E277 /* Debug */,
+				F9FC17D022CBF69500C3E277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FC17D122CBF69500C3E277 /* Build configuration list for PBXNativeTarget "keppSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FC17D222CBF69500C3E277 /* Debug */,
+				F9FC17D322CBF69500C3E277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9FC17A922CBF69500C3E277 /* Project object */;
+}
